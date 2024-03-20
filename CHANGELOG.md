@@ -1,5 +1,22 @@
 # Changelog
 
+## [5.1.0](https://github.com/bearcove/ktls/compare/v5.0.0...v5.1.0) - 2024-03-20
+
+### Added
+- Migrate from ktls-recvmsg to nix 0.28
+- Switch from futures to futures_util
+- Add aws-lc-rs as an alias for aws_lc_rs feature
+- Upgrade dependencies
+
+### Other
+- Remove Cargo.lock from .gitignore
+- Upgrade ktls-sys
+- Ignore .DS_Store files
+- Bump tokio-rustls
+- make aws_lc_rs and ring mutually exclusive for ktls
+- More aws_lc_rs support
+- Start adding support for aws_lc_rs
+
 ## [5.0.0](https://github.com/hapsoc/ktls/compare/v4.0.0...v5.0.0) - 2024-03-11
 
 ### Added
